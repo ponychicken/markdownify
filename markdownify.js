@@ -18,7 +18,8 @@
                 callback(err, result.toString());
             });
         },
-        gfm: true
+        gfm: true,
+        breaks: true
     });
 
     function transform(file) {
